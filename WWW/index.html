@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Automax</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li class="title">Automax</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenido a AutoRent</h1>
+        <p>Los mejores vehículos para ti.</p>
+
+        <h2>Vehículos disponibles:</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="Images/corolla.jpeg" alt="Toyota Corolla">
+                <h3>Toyota Corolla</h3>
+                <a href="Cars/car1.html" class="carousel-btn">Ver más</a>
+            </div>
+            <div class="carousel-slide">
+                <img src="Images/civic.jpeg" alt="Honda Civic">
+                <h3>Honda Civic</h3>
+                <a href="Cars/car2.html" class="carousel-btn">Ver más</a>
+            </div>
+            <div class="carousel-slide">
+                <img src="Images/fiesta.jpg" alt="Ford Fiesta">
+                <h3>Ford Fiesta</h3>
+                <a href="Cars/car3.html" class="carousel-btn">Ver más</a>
+            </div>
+            <button class="carousel-arrow left" id="prevBtn">&#8592;</button>
+            <button class="carousel-arrow right" id="nextBtn">&#8594;</button>
+        </div>
+
+        <h2>Galería de Autos</h2>
+        <div class="gallery-row">
+            <div class="car-card">
+                <img src="Images/corolla.jpeg" alt="Toyota Corolla">
+                <h3>Toyota Corolla</h3>
+                <p>Año: 2025</p>
+                <p>Precio: $500/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/civic.jpeg" alt="Honda Civic">
+                <h3>Honda Civic</h3>
+                <p>Año: 2024</p>
+                <p>Precio: $550/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/fiesta.jpg" alt="Ford Fiesta">
+                <h3>Ford Fiesta</h3>
+                <p>Año: 2020</p>
+                <p>Precio: $400/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/camaro.jpeg" alt="Chevrolet Camaro">
+                <h3>Chevrolet Camaro</h3>
+                <p>Año: 2022</p>
+                <p>Precio: $900/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/r8.jpg" alt="Audi R8">
+                <h3>Audi R8</h3>
+                <p>Año: 2023</p>
+                <p>Precio: $1500/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/p911.jpeg" alt="Porsche 911">
+                <h3>Porsche 911</h3>
+                <p>Año: 2021</p>
+                <p>Precio: $1700/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/mc720s.jpg" alt="McLaren 720S">
+                <h3>McLaren 720S</h3>
+                <p>Año: 2022</p>
+                <p>Precio: $2000/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/n350z.jpg" alt="Nissan 350Z">
+                <h3>Nissan 350Z</h3>
+                <p>Año: 2008</p>
+                <p>Precio: $700/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/herbie63.jpeg" alt="VW Beetle Herbie">
+                <h3>VW Beetle Herbie</h3>
+                <p>Año: 1963</p>
+                <p>Precio: $600/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/b1989.jpeg" alt="Batimóvil 1989">
+                <h3>Batimóvil</h3>
+                <p>Año: 1989</p>
+                <p>Precio: $5000/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/1987F40.jpg" alt="Ferrari F40">
+                <h3>Ferrari F40</h3>
+                <p>Año: 1987</p>
+                <p>Precio: $3000/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/f296.jpg" alt="Ferrari 296 GTB">
+                <h3>Ferrari 296 GTB</h3>
+                <p>Año: 2023</p>
+                <p>Precio: $3500/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/mcqueen.jpeg" alt="Lightning McQueen">
+                <h3>Lightning McQueen</h3>
+                <p>Año: 2006</p>
+                <p>Precio: $1000/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/lurus.jpeg" alt="Lamborghini Urus">
+                <h3>Lamborghini Urus</h3>
+                <p>Año: 2021</p>
+                <p>Precio: $1200/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/miata95.jpg" alt="Mazda Miata">
+                <h3>Mazda Miata</h3>
+                <p>Año: 1995</p>
+                <p>Precio: $650/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/dl1985.jpeg" alt="DeLorean DMC-12">
+                <h3>DeLorean DMC-12</h3>
+                <p>Año: 1985</p>
+                <p>Precio: $1200/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/ngtr2021.jpg" alt="Nissan GT-R">
+                <h3>Nissan GT-R</h3>
+                <p>Año: 2021</p>
+                <p>Precio: $1800/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/mcp1.jpeg" alt="McLaren P1">
+                <h3>McLaren P1</h3>
+                <p>Año: 2015</p>
+                <p>Precio: $4000/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/sienna.jpeg" alt="Toyota Sienna">
+                <h3>Toyota Sienna</h3>
+                <p>Año: 2020</p>
+                <p>Precio: $1200/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/tesla.jpeg" alt="Tesla Model S">
+                <h3>Tesla Model S</h3>
+                <p>Año: 2022</p>
+                <p>Precio: $2000/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/supra.jpg" alt="Toyota Supra">
+                <h3>Toyota Supra</h3>
+                <p>Año: 2021</p>
+                <p>Precio: $2200/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/NS.jpeg" alt="Nissan Sentra">
+                <h3>Nissan Sentra</h3>
+                <p>Año: 2024</p>
+                <p>Precio: $400/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/yaris.jpeg" alt="Toyota Yaris">
+                <h3>Toyota Yaris</h3>
+                <p>Año: 2022</p>
+                <p>Precio: $400/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/vwjetta.jpeg" alt="VW Jetta">
+                <h3>VW Jetta</h3>
+                <p>Año: 2023</p>
+                <p>Precio: $450/día</p>
+            </div>
+            <div class="car-card">
+                <img src="Images/vwpolo.jpeg" alt="VW Polo">
+                <h3>VW Polo</h3>
+                <p>Año: 2025</p>
+                <p>Precio: $550/día</p>
+            </div>
+    </main>
+    <script>
+        // Carrusel JS
+        const slides = document.querySelectorAll('.carousel-slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let currentSlide = 0;
+        let intervalId;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        prevBtn.addEventListener('click', () => {
+            prevSlide();
+            resetInterval();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            nextSlide();
+            resetInterval();
+        });
+
+        function startInterval() {
+            intervalId = setInterval(nextSlide, 3000);
+        }
+
+        function resetInterval() {
+            clearInterval(intervalId);
+            startInterval();
+        }
+
+        // Inicializar
+        showSlide(currentSlide);
+        startInterval();
+    </script>
+</body>
+<footer>
+        <p>&copy; 2025 Automax. Todos los derechos reservados.</p>
+    </footer>
+</html>
